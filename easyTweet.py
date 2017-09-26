@@ -10,7 +10,7 @@ for i in searchword:
     total[i] = 0
 print(total)
 
-with open('/home/morten/Downloads/ACC3/data/0c7526e6-ce8c-4e59-884c-5a15bbca5eb3', 'r') as f:
+with open('~/data/0c7526e6-ce8c-4e59-884c-5a15bbca5eb3', 'r') as f:
     for line in f:
         line = line.strip()
         if not line == "":
